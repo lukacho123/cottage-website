@@ -5,7 +5,7 @@
 import { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:3001";
+const SOCKET_URL = "https://cottage-backend-production.up.railway.app";
 const ADMIN_PASS = "admin123"; // შეცვალე!
 
 export default function AdminPanel() {
